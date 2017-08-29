@@ -1,0 +1,16 @@
+{
+  "name": "sugary",
+  "version": "0.0.1",
+  "description": "A javascript library that offers extended functionality to standard javascript object types.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "extended",
+    "objects"
+  ],
+  "author": "Robert Cutright",
+  "license": "MIT"
+}
