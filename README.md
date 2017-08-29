@@ -8,14 +8,16 @@ Currently in production, contributors welcome.
 Array Prototype Functions
 ---------------------------
 
-# .cycle()
+## .cycle()
 
 __Optionally takes a starting index.__
 
-# .cycle(2)
+## .cycle(2)
 
-// Example
+### Example
+```javascript
 let arrayCycle = ['John Smith', 'Chris Johnson', 'Mike Henry', 'Amy Michelle'].cycle(1);
 arrayCycle.start();
 arrayCycle.next();
 arrayCycle.previous();
+```
