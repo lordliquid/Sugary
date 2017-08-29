@@ -10,9 +10,9 @@ Array Prototype Functions
 
 ### .cycle()
 
-__Optionally takes a starting index.__
+_Optionally takes a starting index._
 
-### __.cycle(2)__
+### _.cycle(2)_
 
 ### Example
 ```javascript
