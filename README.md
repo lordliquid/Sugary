@@ -30,7 +30,7 @@ Array Prototype Functions
   arrayCycle.start(); 
   ```
   _Optionally takes a starting index._
-  ### _start(1)_
+  ### _.start(1)_
 
     Step 4: Cycle by calling either next() or previous() methods.
   ```javascript
