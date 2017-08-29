@@ -9,10 +9,31 @@ Array Prototype Functions
 ---------------------------
 
 ### .cycle()
+  ..cycle() returns an object with useful helper methods for stepping through the array with .next() and .previous()..
 
-_Optionally takes a starting index._
+### Usage
+  Step 1: Assign an array
+  ```javascript
+  let array = [1, 2, 3, 4];
+  ```
+  Step 2: Assign a new variable to store the cycle object.
+  ```javascript
+  let arrayCycle = array.cycle();
+  ```
 
-### _.cycle(2)_
+  Step 3: Start the cycle
+  NOTE: Without providing arguments the cycle starts at the first index of the array. You can optionally pass in a starting index.
+ 
+  ```javascript
+  arrayCycle.start(); 
+  ```
+  _Optionally takes a starting index._
+  ### _..start(1).._
+
+    Step 4: Cycle by calling either next() or previous() methods.
+  ```javascript
+  arrayCycle.next();
+  ```
 
 ### Example
 ```javascript

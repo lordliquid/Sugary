@@ -1,6 +1,6 @@
-Array.prototype.cycle = function(startIndex) {
+module.exports = Array.prototype.cycle = function() {
   let array = this;
-  let index = startIndex || 0;
+  let index;
 
   return {
     next: () => {
@@ -17,7 +17,8 @@ Array.prototype.cycle = function(startIndex) {
       }
       return array[index];
     },
-    start: () => {
+    start: startIndex => {
+      index = startIndex || 0;
       return array[index];
     },
   };
