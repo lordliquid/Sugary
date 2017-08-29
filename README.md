@@ -12,15 +12,18 @@ Array Prototype Functions
   Returns an object with useful helper methods for stepping through the array with .next() and .previous()..
 
 ### Usage
-  ### Step 1: ### Assign an array
+  ### Step 1: 
+  #### Assign an array
   ```javascript
   let array = [1, 2, 3, 4];
   ```
-  ### Step 2: ### Assign a new variable to store the cycle object.
+  ### Step 2: 
+  #### Assign a new variable to store the cycle object.
   ```javascript
   let arrayCycle = array.cycle();
   ```
-  ### Step 3: ### Start the cycle
+  ### Step 3: 
+  #### Start the cycle
   NOTE: Without providing arguments the cycle starts at the first index of the array. You can optionally pass in a starting index.
  
   ```javascript
