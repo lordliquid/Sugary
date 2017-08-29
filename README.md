@@ -8,11 +8,11 @@ Currently in production, contributors welcome.
 Array Prototype Functions
 ---------------------------
 
-## .cycle()
+### .cycle()
 
 __Optionally takes a starting index.__
 
-## .cycle(2)
+### __.cycle(2)__
 
 ### Example
 ```javascript
