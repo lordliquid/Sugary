@@ -1,4 +1,4 @@
-#sugary
+# sugary
 
 A javascript library that offers extended functionality to standard javascript object types.
 
@@ -8,11 +8,11 @@ Currently in production, contributors welcome.
 Array Prototype Functions
 ---------------------------
 
-.cycle()
+# .cycle()
 
-Optionally takes a starting index.
+__Optionally takes a starting index.__
 
-.cycle(2)
+# .cycle(2)
 
 // Example
 let arrayCycle = ['John Smith', 'Chris Johnson', 'Mike Henry', 'Amy Michelle'].cycle(1);
