@@ -1,4 +1,4 @@
-# sugary
+# Sugary
 
 A javascript library that offers extended functionality to standard javascript object types.
 
